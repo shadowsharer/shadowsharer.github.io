@@ -574,18 +574,20 @@ header .go-back i {
     z-index: 2;
 }
 
-.bg-cover .title {
+.bg-cover .title,
+.bg-cover .hpTitle {
     font-size: 4rem;
     line-height: 1.2em;
     margin-bottom: 20px;
     position: relative;
+    color: lightsteelblue;
 }
 
 .bg-cover .description {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: lightsteelblue;
 }
 
 .bg-cover .post-title {
